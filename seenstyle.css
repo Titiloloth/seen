@@ -1,0 +1,328 @@
+body {
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+.banniere {
+    background-color: #000000;
+  background-image:  url('images/footer.png');
+  background-position: center;
+  background-size: 1000px 500px;
+  background-repeat: no-repeat;
+  padding: 1em;
+  width: auto;
+  height: 70%;
+  
+    
+}
+h1 {
+    text-shadow: 4.5px 4.5px 3.6px rgb(55, 0, 255, 0.70);
+    text-align: center;
+    margin-top: 12%;
+    margin-left: 3%;
+    font-size: 700%;
+    letter-spacing: 20px;
+    -webkit-transition: all 1s ease;
+   -moz-transition: all 1s ease;
+   -o-transition: all 1s ease;
+   transition: all 1s ease; 
+   cursor: pointer
+}
+h1:hover { 
+    letter-spacing: 100px;
+    text-shadow: 4.5px 4.5px 3.6px rgba(255, 0, 0, 0.70);
+}
+h2 {
+    text-shadow: 4.5px 4.5px 3.6px rgb(55, 0, 255, 0.70);
+    text-align: center;
+    margin-top: 2%;
+    margin-left: 3%;
+    font-size: 200%;
+    letter-spacing: 10px;
+    -webkit-transition: all 1s ease;
+   -moz-transition: all 1s ease;
+   -o-transition: all 1s ease;
+   transition: all 1s ease; 
+   cursor: pointer
+}
+h2:hover { 
+    text-shadow: 4.5px 4.5px 3.6px rgba(255, 0, 0, 0.70);
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 32%;
+}
+li {
+    display: inline;
+}
+.nav1 {
+    margin-right: 60px;
+}
+.nav1:hover {
+    text-shadow: 4.5px 4.5px 3.6px rgb(55, 0, 255, 0.70);
+}
+.nav2 {
+    margin-right: 60px;
+}
+.nav2:hover {
+    text-shadow: 4.5px 4.5px 3.6px rgba(255, 0, 0, 0.70);
+}
+.nav3:hover {
+    text-shadow: 4.5px 4.5px 3.6px rgb(55, 0, 255, 0.70);
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+}
+.ligne {
+    border: double white;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+p {
+    margin-left: 12%;
+    padding-top: 3%;
+    width: 80%;
+    white-space: pre-wrap;
+}
+.auteure-icon {
+    position: absolute; 
+    bottom: -100px;
+    left: 240px;
+    box-shadow: 2px 5px 5px white;
+}
+.auteure-bulle {
+    background-color: #111111;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    padding-bottom: 0.2%;
+    text-align: justify;
+   
+}
+.bubble-text{background:#111111; color:#fff; padding:7px 15px; border-radius:10px; width:600px; margin-left: 600px; margin-top:50px; text-shadow: 1px 2px 2px red;}
+
+.bubble-text::after{
+content: url("images/bulle.png"); 
+margin-left: 22px;
+margin-top: 1px;
+background-size: 20px cover;
+position: absolute;
+}
+
+.seen {
+    margin-left: 550px;
+    font-size: 10px;
+}
+.vertical-menu {
+    width: 350px; /* Set a width if you like */
+    height: 200px;
+    margin-top: 50px;
+  }
+  
+  .vertical-menu a {
+    background-color: #111111; /* Grey background color */
+    color: white; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 12px; /* Add some padding */
+    font-size: 25px;
+    text-decoration: none; /* Remove underline from links */
+    border: solid 1px black;
+  }
+  
+  .vertical-menu a:hover {
+    background-color: #000000; /* Dark grey background on mouse-over */
+  }
+  
+  .vertical-menu a.active {
+    background-color: #000000; /* Add a green color to the "active/current" link */
+    color: white;
+  }
+.episodes { letter-spacing: 10px;
+
+}
+.footer-histoire {
+    position: absolute;
+    bottom: -100%;
+}
+.page-suivante {
+    position:absolute;
+    bottom: -85%;
+    margin-left: 1300px;
+}
+.perso4 {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.perso3 {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.perso2 {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.perso1 {
+    margin-left: 350px;
+    margin-top: 10px;
+}
+.perso1-desc {
+    color: white;
+    background-color: black;
+    height: 455px;
+    width: 200px;
+    position: absolute;
+    top: 638px;
+    left: 167px;
+    opacity: 0%;
+    text-align: center;
+}
+.perso1-desc:hover {
+    opacity: 70%;
+    transition-duration: 1s;
+}
+.perso2-desc {
+    color: white;
+    background-color: black;
+    height: 455px;
+    width: 200px;
+    position: absolute;
+    top: 639px;
+    left: 381px;
+    opacity: 0%;
+    text-align: center;
+}
+.perso2-desc:hover {
+    opacity: 70%;
+    transition-duration: 1s;
+}
+.perso3-desc {
+    color: white;
+    background-color: black;
+    height: 455px;
+    width: 200px;
+    position: absolute;
+    top: 639px;
+    left: 596px;
+    opacity: 0%;
+    text-align: center;
+}
+.perso3-desc:hover {
+    opacity: 70%;
+    transition-duration: 1s;
+}
+.perso4-desc {
+    color: white;
+    background-color: black;
+    height: 455px;
+    width: 200px;
+    position: absolute;
+    top: 638px;
+    left: 810px;
+    opacity: 0%;
+    text-align: center;
+}
+.perso4-desc:hover {
+    opacity: 70%;
+    transition-duration: 1s;
+}
+.profil-link {
+    font-size: 15px;
+}
+.pegi {
+    height: 60px;
+    width: 50px}
+.conteneur {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-left: 15%;
+    gap: 2%;
+    margin-bottom: 20px;
+}
+.perso-desc-1 {
+    background-color:#111111;
+    flex-basis: 20%;
+    border-radius: 10%;
+    padding: 2%;
+   /* margin-right: 30%;*/
+    /*width: 200%;*/
+
+}
+.perso-desc-2 {
+    flex-basis: 40%;
+    background-color:#111111;
+    border-radius: 10%;
+    border-bottom-left-radius: 0%;
+    padding: 2%;
+   /* margin-left: -27%;
+    margin-right: 2%;*/
+
+}
+.perso-render {
+    flex-basis: 17%;
+    margin-right: 90px;
+}
+.citation {
+    background:#111111; 
+    color:#fff; 
+    text-align: center;
+    padding:7px 15px; 
+    border-radius:10px; 
+    width:600px;
+    margin-left: 30%; 
+     margin-top:50px; 
+     text-shadow: 1px 2px 2px red;
+
+}
+.joli-cadre {
+    border-left: solid 1px white;
+    border-bottom: solid 1px white;
+    padding: 2%;
+}
+.joli-cadre-a {
+    border-left: double white;
+    padding: 2%;
+}
+.titre-persos:hover {letter-spacing: 5px;
+    transition: 1s;
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+}
+.illu-index {
+    margin-left: 10%;
+}
+.commentaire {
+    position:absolute;
+    bottom:-95%;
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: double 1px white;
+}
+.commentaire-area {
+    position:absolute;
+    bottom:-135%;
+    right:8%;
+}
+.bouton {
+    display:block;
+    background-color: #111111;
+    border-radius: 5px;
+    height: 25px;
+    width: 70px;
+    margin-bottom: 5%;
+}
+.bouton:hover {
+    background-color: #000000;
+}
+.page {
+    position:absolute; 
+    right: 30%;
+    top: 90%;
+}
